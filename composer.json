@@ -32,6 +32,7 @@
 		"roots/wp-password-bcrypt": "1.0.0",
 		"wpackagist-plugin/advanced-custom-fields":"^4.4.5",
 		"wpackagist-plugin/wordpress-seo":"^3.1.1",
+		"wpackagist-plugin/better-wp-security":"^5.3.4",
 		"roots/soil":"^3.7.0"
 	},
 	"extra": {

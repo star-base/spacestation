@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57af19861ef0d8ec27b1ecd4b249f91a",
-    "content-hash": "ee4318122bbd90ef415458cfd24204dd",
+    "hash": "ad0c967aed515e499efbbb0125a4bb4e",
+    "content-hash": "6b050d01ff1b3e28ebb45fc0a31e6ccb",
     "packages": [
         {
             "name": "composer/installers",
@@ -401,6 +401,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/better-wp-security",
+            "version": "5.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-wp-security/",
+                "reference": "tags/5.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-wp-security.5.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-wp-security/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
