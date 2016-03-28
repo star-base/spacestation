@@ -1,14 +1,15 @@
 # Application
-spaceship/app/plugins/*
-!spaceship/app/plugins/.gitkeep
-spaceship/app/mu-plugins/*/
-spaceship/app/upgrade
-spaceship/app/uploads/*
-!spaceship/app/uploads/.gitkeep
+web/app/plugins/*
+web/app/themes/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
 
 # WordPress
-spaceship/wp
-spaceship/.htaccess
+web/wp
+web/.htaccess
 
 # WP-CLI
 db-sync
